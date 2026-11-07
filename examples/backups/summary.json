@@ -1,9 +1,0 @@
-{
-  "valid_runs": 6,
-  "successful_runs": 4,
-  "failed_runs": 2,
-  "success_rate_percent": 66.7,
-  "successful_gb": 18.0,
-  "latest_failed_vms": "dc-01",
-  "rejected_rows": 2
-}

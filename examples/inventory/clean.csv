@@ -1,6 +1,0 @@
-﻿hostname,ip,role,ram_gb
-pve-01,192.168.10.10,hypervisor,8.0
-web-01,192.168.10.20,web,2.0
-dc-01,192.168.10.30,domain controller,4.0
-client-01,192.168.10.40,client,4.0
-test-01,192.168.10.40,test,2.0

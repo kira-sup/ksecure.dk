@@ -1,9 +1,0 @@
-job_id,vm,started_at,status,duration_min,size_gb
-b001,web-01,2026-11-05T02:00:00+00:00,success,3.5,2.1
-b002,dc-01,2026-11-05T02:10:00+00:00,success,8,6.8
-b003,web-01,2026-11-06T02:00:00+00:00,failed,1,0
-b004,dc-01,2026-11-06T02:10:00+00:00,success,8.5,6.9
-b005,web-01,2026-11-07T02:00:00+00:00,success,3.8,2.2
-b006,dc-01,2026-11-07T02:10:00+00:00,failed,2,0
-b006,dc-01,2026-11-07T02:10:00+00:00,failed,2,0
-b007,test-01,wrong-date,success,5,1
