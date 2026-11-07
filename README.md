@@ -4,7 +4,7 @@ Six personal learning demos: four local automation scenarios and two static webs
 All sample records are synthetic. These are practice projects, not paid client case studies.
 Created with AI assistance; source and repeatable checks are included.
 
-**[Visit ksecure.dk](https://ksecure.dk)** · **[Documentation](https://ksecure.dk/docs/)** · **[Russian guide](README_RU.md)** · **[Download the runnable bundle](HomeLab_Portfolio.zip)**
+**[Visit ksecure.dk](https://ksecure.dk)** · **[Documentation](https://ksecure.dk/docs/)** · **[English demo guide](DEMO_GUIDE.md)** · **[Download the runnable bundle](HomeLab_Portfolio.zip)**
 
 After GitHub Pages is enabled, use its published URL to view the websites. GitHub's repository file view displays HTML source rather than rendering a website.
 
@@ -34,7 +34,7 @@ Generated output goes into a timestamped `runs/` folder; sample inputs remain un
 The table tools accept UTF-8 CSV and simple first-sheet XLSX files containing values.
 They produce CSV, JSON and HTML reports, not formatted XLSX workbooks.
 Input formulas are rejected; timestamps must be ISO 8601 text with a timezone.
-See the Russian guide for schemas, examples and limitations.
+See the English demo guide for schemas, examples and limitations.
 
 ## GitHub Pages
 
