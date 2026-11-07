@@ -1,0 +1,5 @@
+﻿row,issue
+4,Exact normalized duplicate removed
+7,IP conflict with row 6
+8,'192.168.10.999' does not appear to be an IPv4 or IPv6 address
+9,could not convert string to float: ''

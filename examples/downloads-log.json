@@ -1,0 +1,32 @@
+[
+  {
+    "source": "devices.csv",
+    "destination": "Tables/devices.csv",
+    "status": "COPIED",
+    "sha256": "30f489df320156bfe3942ea5d4ac775a05b4d68c9bc77e51414e2f4c2c94be76"
+  },
+  {
+    "source": "misc/readme.txt",
+    "destination": "Documents/readme.txt",
+    "status": "COPIED",
+    "sha256": "9cf8ebd844e6d431c668dc68c8b3753de03eecdb2dde78ae75e1ec47e1629dac"
+  },
+  {
+    "source": "notes.txt",
+    "destination": "Documents/notes.txt",
+    "status": "COPIED",
+    "sha256": "4504ed709195ce78194086ac6b7532bc6937bbb76428d8e0d936b96ad7c58312"
+  },
+  {
+    "source": "other/notes.txt",
+    "destination": "Documents/notes__1.txt",
+    "status": "COPIED",
+    "sha256": "e9ad4b6ae12eb8eb3b7ebe9e7d9cfa4fb677e14f243aac9d6bc648102959d316"
+  },
+  {
+    "source": "setup.ps1",
+    "destination": "Scripts/setup.ps1",
+    "status": "COPIED",
+    "sha256": "ff22268ec42906f0b7443411358a2d200ab3ad7c6056e37b0d0756e464f192c4"
+  }
+]

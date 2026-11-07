@@ -1,0 +1,9 @@
+hostname,ip,role,ram_gb
+ PVE-01 ,192.168.10.10, hypervisor ,8
+WEB-01,192.168.10.20,web,2
+ web-01 ,192.168.10.20,WEB,2
+DC-01,192.168.10.30,domain controller,4
+CLIENT-01,192.168.10.40,client,4
+TEST-01,192.168.10.40,test,2
+BROKEN-01,192.168.10.999,test,2
+EMPTY-RAM,192.168.10.55,test,
