@@ -1,10 +1,10 @@
-# ksecure.dk — Home Lab Portfolio
+# Home Lab Portfolio
 
 Six personal learning demos: four local automation scenarios and two static websites.
 All sample records are synthetic. These are practice projects, not paid client case studies.
 Created with AI assistance; source and repeatable checks are included.
 
-**[Open the website collection](web/index.html)** · **[Russian guide](README_RU.md)** · **[Download the runnable bundle](HomeLab_Portfolio.zip)**
+**[Visit ksecure.dk](https://ksecure.dk)** · **[Documentation](https://ksecure.dk/docs/)** · **[Russian guide](README_RU.md)** · **[Download the runnable bundle](HomeLab_Portfolio.zip)**
 
 After GitHub Pages is enabled, use its published URL to view the websites. GitHub's repository file view displays HTML source rather than rendering a website.
 
@@ -51,3 +51,8 @@ need local verification. No live infrastructure, booking system or real business
 contact is connected.
 
 Do not add real device exports, secrets, client data or credentials to this public demo.
+
+
+## Website redesign
+
+The main website now includes a blue and white responsive layout, glass panels, reduced-motion support, a sample file organiser, project filters and search. The `docs/` directory contains six project guides, a searchable index and a getting-started guide. The original dark and light website demos remain in `web/`. `HomeLab_Portfolio.zip` remains the original runnable demo bundle. The source for the redesigned site is in `index.html`, `assets/` and `docs/`.
