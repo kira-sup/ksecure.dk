@@ -56,3 +56,14 @@ Do not add real device exports, secrets, client data or credentials to this publ
 ## Website redesign
 
 The main website now includes a blue and white responsive layout, glass panels, reduced-motion support, a sample file organiser, project filters and search. The `docs/` directory contains six project guides, a searchable index and a getting-started guide. The original dark and light website demos remain in `web/`. `HomeLab_Portfolio.zip` remains the original runnable demo bundle. The source for the redesigned site is in `index.html`, `assets/` and `docs/`.
+
+
+## Separate website pages
+
+- `index.html`: short KSecure introduction and navigation.
+- `projects.html`: all six demos with search and category filters.
+- `solutions.html`: task-based routes to matching projects and the organiser preview.
+- `info.html`: about KSecure, learning environment and resource links.
+- `docs/`: setup and technical project guides.
+
+Shared navigation links to pages rather than homepage section anchors. Old homepage section links redirect to the corresponding page.
