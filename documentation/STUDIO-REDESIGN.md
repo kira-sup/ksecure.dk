@@ -20,7 +20,7 @@ Main navigation is Home, Services, About KSecure and Let's talk. The main pages 
 
 The service areas remain grounded in the previous site's stated capabilities: websites and digital presence, custom tools and applications, automation and integrations, data and spreadsheets, practical IT support, and documentation and handover. Descriptions explain what work can include without inventing completed customers, testimonials, certifications, pricing, team size or guaranteed availability. Each project requires agreement about deliverables, constraints and access.
 
-KSecure is described as an independent freelance practice. It does not claim to be a multi-person agency. The existing public GitHub profile is the contact destination. The owner indicated an email address or booking link would be provided, but no exact replacement has been supplied. Keep the current valid destination until that information is available; do not invent a contact address or activate a nonfunctional form.
+KSecure is described as an independent freelance practice. It does not claim to be a multi-person agency. The public enquiry destination is [khavenko@gmail.com](mailto:khavenko@gmail.com), supplied by the owner on 9 November 2026. The Email KSecure button uses a standard `mailto:` link and opens the visitor's email app. No contact form or submission backend is required.
 
 ## Styling and behavior
 

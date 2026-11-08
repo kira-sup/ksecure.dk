@@ -9,7 +9,7 @@ A brand-led freelance website for KSecure: websites, custom tools, automation, d
 
 The main visitor experience focuses on KSecure and its services. Personal biography, project-example cards and PDF portfolio promotions have been removed from the main pages. Earlier PDF, report and demo files remain in the repository for reference; they are not featured in the main navigation.
 
-Scope and feasibility are agreed for each new request. The current public contact remains the existing GitHub profile until a business email or booking URL is provided. Historical example data is synthetic and does not represent customer case studies.
+Scope and feasibility are agreed for each new request. Public enquiries: [khavenko@gmail.com](mailto:khavenko@gmail.com). Historical example data is synthetic and does not represent customer case studies.
 
 Hosted with GitHub Pages at https://ksecure.dk.
 
