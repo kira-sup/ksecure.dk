@@ -1,0 +1,660 @@
+{
+  "repository": "kira-sup/ksecure.dk",
+  "recorded_date": "2026-11-08",
+  "scope": "Two complete source snapshots, not every revision. This documentation commit is outside the source baselines.",
+  "snapshots": {
+    "current": {
+      "commit": "4dd5c471f42034f57809305a910d8c93890773da",
+      "file_count": 28,
+      "text_count": 27,
+      "binary_count": 1,
+      "files": [
+        {
+          "path": ".gitignore",
+          "bytes": 51,
+          "git_blob_sha1": "12c9f922319fcb272c231b0c747c9d951952c2e8",
+          "kind": "text",
+          "source_url": "https://github.com/kira-sup/ksecure.dk/blob/4dd5c471f42034f57809305a910d8c93890773da/.gitignore"
+        },
+        {
+          "path": ".nojekyll",
+          "bytes": 0,
+          "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+          "kind": "text",
+          "source_url": "https://github.com/kira-sup/ksecure.dk/blob/4dd5c471f42034f57809305a910d8c93890773da/.nojekyll"
+        },
+        {
+          "path": "404.html",
+          "bytes": 1173,
+          "git_blob_sha1": "b6a22effd5c2e3bff34f218a41de38e844a1cf1f",
+          "kind": "text",
+          "source_url": "https://github.com/kira-sup/ksecure.dk/blob/4dd5c471f42034f57809305a910d8c93890773da/404.html"
+        },
+        {
+          "path": "CNAME",
+          "bytes": 10,
+          "git_blob_sha1": "80baea8592036c93f4f0e302651773c6db1d2759",
+          "kind": "text",
+          "source_url": "https://github.com/kira-sup/ksecure.dk/blob/4dd5c471f42034f57809305a910d8c93890773da/CNAME"
+        },
+        {
+          "path": "README.md",
+          "bytes": 724,
+          "git_blob_sha1": "5a041e8b8e3274b215a70b10d7c64bb43c068080",
+          "kind": "text",
+          "source_url": "https://github.com/kira-sup/ksecure.dk/blob/4dd5c471f42034f57809305a910d8c93890773da/README.md"
+        },
+        {
+          "path": "assets/favicon.svg",
+          "bytes": 214,
+          "git_blob_sha1": "97651d37e531eca9c812066a7d5816cd7a6f3eae",
+          "kind": "text",
+          "source_url": "https://github.com/kira-sup/ksecure.dk/blob/4dd5c471f42034f57809305a910d8c93890773da/assets/favicon.svg"
+        },
+        {
+          "path": "assets/site.css",
+          "bytes": 29235,
+          "git_blob_sha1": "1840d2c4cfbad0aaf3d89ccb5746e0e59cacba64",
+          "kind": "text",
+          "source_url": "https://github.com/kira-sup/ksecure.dk/blob/4dd5c471f42034f57809305a910d8c93890773da/assets/site.css"
+        },
+        {
+          "path": "assets/site.js",
+          "bytes": 4570,
+          "git_blob_sha1": "007dec6908089a3e5a6f9c72ce91a7500714a63b",
+          "kind": "text",
+          "source_url": "https://github.com/kira-sup/ksecure.dk/blob/4dd5c471f42034f57809305a910d8c93890773da/assets/site.js"
+        },
+        {
+          "path": "demo-guide.html",
+          "bytes": 690,
+          "git_blob_sha1": "cf8ade66204bdf362c398e26fd4d04d92090d045",
+          "kind": "text",
+          "source_url": "https://github.com/kira-sup/ksecure.dk/blob/4dd5c471f42034f57809305a910d8c93890773da/demo-guide.html"
+        },
+        {
+          "path": "docs/backups.html",
+          "bytes": 711,
+          "git_blob_sha1": "a7d38a30e990d4a6d9e2c3ac77e0ce2a1f82c228",
+          "kind": "text",
+          "source_url": "https://github.com/kira-sup/ksecure.dk/blob/4dd5c471f42034f57809305a910d8c93890773da/docs/backups.html"
+        },
+        {
+          "path": "docs/config-archive.html",
+          "bytes": 711,
+          "git_blob_sha1": "b245854a08dc253f8fc53f45127f2a248f5bcde6",
+          "kind": "text",
+          "source_url": "https://github.com/kira-sup/ksecure.dk/blob/4dd5c471f42034f57809305a910d8c93890773da/docs/config-archive.html"
+        },
+        {
+          "path": "docs/file-organiser.html",
+          "bytes": 711,
+          "git_blob_sha1": "b245854a08dc253f8fc53f45127f2a248f5bcde6",
+          "kind": "text",
+          "source_url": "https://github.com/kira-sup/ksecure.dk/blob/4dd5c471f42034f57809305a910d8c93890773da/docs/file-organiser.html"
+        },
+        {
+          "path": "docs/getting-started.html",
+          "bytes": 690,
+          "git_blob_sha1": "cf8ade66204bdf362c398e26fd4d04d92090d045",
+          "kind": "text",
+          "source_url": "https://github.com/kira-sup/ksecure.dk/blob/4dd5c471f42034f57809305a910d8c93890773da/docs/getting-started.html"
+        },
+        {
+          "path": "docs/index.html",
+          "bytes": 690,
+          "git_blob_sha1": "cf8ade66204bdf362c398e26fd4d04d92090d045",
+          "kind": "text",
+          "source_url": "https://github.com/kira-sup/ksecure.dk/blob/4dd5c471f42034f57809305a910d8c93890773da/docs/index.html"
+        },
+        {
+          "path": "docs/inventory.html",
+          "bytes": 711,
+          "git_blob_sha1": "a7d38a30e990d4a6d9e2c3ac77e0ce2a1f82c228",
+          "kind": "text",
+          "source_url": "https://github.com/kira-sup/ksecure.dk/blob/4dd5c471f42034f57809305a910d8c93890773da/docs/inventory.html"
+        },
+        {
+          "path": "docs/lab-website.html",
+          "bytes": 711,
+          "git_blob_sha1": "daf772f24b33bf08594157bed4a9d3fb124dcf01",
+          "kind": "text",
+          "source_url": "https://github.com/kira-sup/ksecure.dk/blob/4dd5c471f42034f57809305a910d8c93890773da/docs/lab-website.html"
+        },
+        {
+          "path": "docs/service-website.html",
+          "bytes": 711,
+          "git_blob_sha1": "daf772f24b33bf08594157bed4a9d3fb124dcf01",
+          "kind": "text",
+          "source_url": "https://github.com/kira-sup/ksecure.dk/blob/4dd5c471f42034f57809305a910d8c93890773da/docs/service-website.html"
+        },
+        {
+          "path": "documents/KSecure_Project_Portfolio.pdf",
+          "bytes": 51740,
+          "git_blob_sha1": "227f14c58a015497ab9b946978e0c40c07499755",
+          "kind": "binary",
+          "source_url": "https://github.com/kira-sup/ksecure.dk/blob/4dd5c471f42034f57809305a910d8c93890773da/documents/KSecure_Project_Portfolio.pdf"
+        },
+        {
+          "path": "examples/backups/report.html",
+          "bytes": 1770,
+          "git_blob_sha1": "f7bd34946b1f07cd55508874744215b863c58ab7",
+          "kind": "text",
+          "source_url": "https://github.com/kira-sup/ksecure.dk/blob/4dd5c471f42034f57809305a910d8c93890773da/examples/backups/report.html"
+        },
+        {
+          "path": "examples/inventory/report.html",
+          "bytes": 1478,
+          "git_blob_sha1": "bb42d63bdabd048242d6e8a7b71a1b41b3a14c8e",
+          "kind": "text",
+          "source_url": "https://github.com/kira-sup/ksecure.dk/blob/4dd5c471f42034f57809305a910d8c93890773da/examples/inventory/report.html"
+        },
+        {
+          "path": "index.html",
+          "bytes": 4374,
+          "git_blob_sha1": "3c457c1865cae45ee4374111b50952a9ac18af23",
+          "kind": "text",
+          "source_url": "https://github.com/kira-sup/ksecure.dk/blob/4dd5c471f42034f57809305a910d8c93890773da/index.html"
+        },
+        {
+          "path": "info.html",
+          "bytes": 3029,
+          "git_blob_sha1": "2082c02b11ef5e326a59a55ec3e02ba131de70fe",
+          "kind": "text",
+          "source_url": "https://github.com/kira-sup/ksecure.dk/blob/4dd5c471f42034f57809305a910d8c93890773da/info.html"
+        },
+        {
+          "path": "projects.html",
+          "bytes": 6733,
+          "git_blob_sha1": "17aeabad938c3c1a9fe225d7d3647511ae486982",
+          "kind": "text",
+          "source_url": "https://github.com/kira-sup/ksecure.dk/blob/4dd5c471f42034f57809305a910d8c93890773da/projects.html"
+        },
+        {
+          "path": "solutions.html",
+          "bytes": 3722,
+          "git_blob_sha1": "274f5537745929645099760fc762079d11821a2b",
+          "kind": "text",
+          "source_url": "https://github.com/kira-sup/ksecure.dk/blob/4dd5c471f42034f57809305a910d8c93890773da/solutions.html"
+        },
+        {
+          "path": "web/index.html",
+          "bytes": 182,
+          "git_blob_sha1": "c9744990ecd3fe80a79b04b121584da8eeb0ee64",
+          "kind": "text",
+          "source_url": "https://github.com/kira-sup/ksecure.dk/blob/4dd5c471f42034f57809305a910d8c93890773da/web/index.html"
+        },
+        {
+          "path": "web/lab.html",
+          "bytes": 5351,
+          "git_blob_sha1": "fe2cfc40490f51cfecc47ceb27121acc94b13063",
+          "kind": "text",
+          "source_url": "https://github.com/kira-sup/ksecure.dk/blob/4dd5c471f42034f57809305a910d8c93890773da/web/lab.html"
+        },
+        {
+          "path": "web/styles.css",
+          "bytes": 4665,
+          "git_blob_sha1": "51c5125b2d9196770bc4c618d0b73580aefd8e86",
+          "kind": "text",
+          "source_url": "https://github.com/kira-sup/ksecure.dk/blob/4dd5c471f42034f57809305a910d8c93890773da/web/styles.css"
+        },
+        {
+          "path": "web/support.html",
+          "bytes": 4659,
+          "git_blob_sha1": "56fddc34210e38f4ee8505d5d47582a6275fb689",
+          "kind": "text",
+          "source_url": "https://github.com/kira-sup/ksecure.dk/blob/4dd5c471f42034f57809305a910d8c93890773da/web/support.html"
+        }
+      ]
+    },
+    "historical": {
+      "commit": "c0c143657a82c1fda5a6253e419825b4df5bf8bc",
+      "file_count": 63,
+      "text_count": 62,
+      "binary_count": 1,
+      "files": [
+        {
+          "path": ".gitignore",
+          "bytes": 51,
+          "git_blob_sha1": "12c9f922319fcb272c231b0c747c9d951952c2e8",
+          "kind": "text",
+          "source_url": "https://github.com/kira-sup/ksecure.dk/blob/c0c143657a82c1fda5a6253e419825b4df5bf8bc/.gitignore"
+        },
+        {
+          "path": ".nojekyll",
+          "bytes": 0,
+          "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+          "kind": "text",
+          "source_url": "https://github.com/kira-sup/ksecure.dk/blob/c0c143657a82c1fda5a6253e419825b4df5bf8bc/.nojekyll"
+        },
+        {
+          "path": "CNAME",
+          "bytes": 10,
+          "git_blob_sha1": "80baea8592036c93f4f0e302651773c6db1d2759",
+          "kind": "text",
+          "source_url": "https://github.com/kira-sup/ksecure.dk/blob/c0c143657a82c1fda5a6253e419825b4df5bf8bc/CNAME"
+        },
+        {
+          "path": "DEMO_GUIDE.md",
+          "bytes": 6865,
+          "git_blob_sha1": "b110064d7182cc6d4bd6e9efee52c3a6a3dd4167",
+          "kind": "text",
+          "source_url": "https://github.com/kira-sup/ksecure.dk/blob/c0c143657a82c1fda5a6253e419825b4df5bf8bc/DEMO_GUIDE.md"
+        },
+        {
+          "path": "HomeLab_Portfolio.zip",
+          "bytes": 31561,
+          "git_blob_sha1": "662fa568a7b8aff919c2067ebd67ae7179830a95",
+          "kind": "binary",
+          "source_url": "https://github.com/kira-sup/ksecure.dk/blob/c0c143657a82c1fda5a6253e419825b4df5bf8bc/HomeLab_Portfolio.zip"
+        },
+        {
+          "path": "README.md",
+          "bytes": 3725,
+          "git_blob_sha1": "4656848e53b9d14b352237560ac1f5fa6239599d",
+          "kind": "text",
+          "source_url": "https://github.com/kira-sup/ksecure.dk/blob/c0c143657a82c1fda5a6253e419825b4df5bf8bc/README.md"
+        },
+        {
+          "path": "START_HERE.html",
+          "bytes": 189,
+          "git_blob_sha1": "0cd32469575e94ca8f47a1b63afa8a4e214ab491",
+          "kind": "text",
+          "source_url": "https://github.com/kira-sup/ksecure.dk/blob/c0c143657a82c1fda5a6253e419825b4df5bf8bc/START_HERE.html"
+        },
+        {
+          "path": "assets/favicon.svg",
+          "bytes": 214,
+          "git_blob_sha1": "97651d37e531eca9c812066a7d5816cd7a6f3eae",
+          "kind": "text",
+          "source_url": "https://github.com/kira-sup/ksecure.dk/blob/c0c143657a82c1fda5a6253e419825b4df5bf8bc/assets/favicon.svg"
+        },
+        {
+          "path": "assets/site.css",
+          "bytes": 27743,
+          "git_blob_sha1": "5d4ec196d7c1047ea5c50b481dfef1962e3f8f8e",
+          "kind": "text",
+          "source_url": "https://github.com/kira-sup/ksecure.dk/blob/c0c143657a82c1fda5a6253e419825b4df5bf8bc/assets/site.css"
+        },
+        {
+          "path": "assets/site.js",
+          "bytes": 4570,
+          "git_blob_sha1": "007dec6908089a3e5a6f9c72ce91a7500714a63b",
+          "kind": "text",
+          "source_url": "https://github.com/kira-sup/ksecure.dk/blob/c0c143657a82c1fda5a6253e419825b4df5bf8bc/assets/site.js"
+        },
+        {
+          "path": "demo-guide.html",
+          "bytes": 7483,
+          "git_blob_sha1": "25b021e698691d8df8690c8ee69669a8d5c94859",
+          "kind": "text",
+          "source_url": "https://github.com/kira-sup/ksecure.dk/blob/c0c143657a82c1fda5a6253e419825b4df5bf8bc/demo-guide.html"
+        },
+        {
+          "path": "docs/backups.html",
+          "bytes": 5543,
+          "git_blob_sha1": "b2f59a5e4676f845c042f882a41e6e3fb3c6844a",
+          "kind": "text",
+          "source_url": "https://github.com/kira-sup/ksecure.dk/blob/c0c143657a82c1fda5a6253e419825b4df5bf8bc/docs/backups.html"
+        },
+        {
+          "path": "docs/config-archive.html",
+          "bytes": 5476,
+          "git_blob_sha1": "90c2a84dccec64f1d338abc293491260ab4a956d",
+          "kind": "text",
+          "source_url": "https://github.com/kira-sup/ksecure.dk/blob/c0c143657a82c1fda5a6253e419825b4df5bf8bc/docs/config-archive.html"
+        },
+        {
+          "path": "docs/file-organiser.html",
+          "bytes": 5522,
+          "git_blob_sha1": "d0ae20b7d625a034b494b63e02b9b5f170dae3c2",
+          "kind": "text",
+          "source_url": "https://github.com/kira-sup/ksecure.dk/blob/c0c143657a82c1fda5a6253e419825b4df5bf8bc/docs/file-organiser.html"
+        },
+        {
+          "path": "docs/getting-started.html",
+          "bytes": 5752,
+          "git_blob_sha1": "e82ff5ede460258f51ece31077fd5280f1cde74e",
+          "kind": "text",
+          "source_url": "https://github.com/kira-sup/ksecure.dk/blob/c0c143657a82c1fda5a6253e419825b4df5bf8bc/docs/getting-started.html"
+        },
+        {
+          "path": "docs/index.html",
+          "bytes": 6934,
+          "git_blob_sha1": "1d561f44c2693b1bdaf07af981f96493361c09b9",
+          "kind": "text",
+          "source_url": "https://github.com/kira-sup/ksecure.dk/blob/c0c143657a82c1fda5a6253e419825b4df5bf8bc/docs/index.html"
+        },
+        {
+          "path": "docs/inventory.html",
+          "bytes": 5702,
+          "git_blob_sha1": "32f94ceff1630ba38732bad78afebfe723a95b3a",
+          "kind": "text",
+          "source_url": "https://github.com/kira-sup/ksecure.dk/blob/c0c143657a82c1fda5a6253e419825b4df5bf8bc/docs/inventory.html"
+        },
+        {
+          "path": "docs/lab-website.html",
+          "bytes": 5044,
+          "git_blob_sha1": "4f713e13a7a8da81f9558187830cbb75eaaf7c4e",
+          "kind": "text",
+          "source_url": "https://github.com/kira-sup/ksecure.dk/blob/c0c143657a82c1fda5a6253e419825b4df5bf8bc/docs/lab-website.html"
+        },
+        {
+          "path": "docs/service-website.html",
+          "bytes": 4997,
+          "git_blob_sha1": "9bb259912b3b641e19641237e8f6cc04e5674c5f",
+          "kind": "text",
+          "source_url": "https://github.com/kira-sup/ksecure.dk/blob/c0c143657a82c1fda5a6253e419825b4df5bf8bc/docs/service-website.html"
+        },
+        {
+          "path": "enquiry-template.txt",
+          "bytes": 490,
+          "git_blob_sha1": "1de7ca2ccef7eb80ca587a554f757552a927fcb6",
+          "kind": "text",
+          "source_url": "https://github.com/kira-sup/ksecure.dk/blob/c0c143657a82c1fda5a6253e419825b4df5bf8bc/enquiry-template.txt"
+        },
+        {
+          "path": "examples/backups/clean.csv",
+          "bytes": 371,
+          "git_blob_sha1": "ce7cc549950d102591ee57316e37bcb3833233bc",
+          "kind": "text",
+          "source_url": "https://github.com/kira-sup/ksecure.dk/blob/c0c143657a82c1fda5a6253e419825b4df5bf8bc/examples/backups/clean.csv"
+        },
+        {
+          "path": "examples/backups/issues.csv",
+          "bytes": 82,
+          "git_blob_sha1": "52c3b2034f855f0ed18fca47a06a0db253b093ab",
+          "kind": "text",
+          "source_url": "https://github.com/kira-sup/ksecure.dk/blob/c0c143657a82c1fda5a6253e419825b4df5bf8bc/examples/backups/issues.csv"
+        },
+        {
+          "path": "examples/backups/report.html",
+          "bytes": 1770,
+          "git_blob_sha1": "f7bd34946b1f07cd55508874744215b863c58ab7",
+          "kind": "text",
+          "source_url": "https://github.com/kira-sup/ksecure.dk/blob/c0c143657a82c1fda5a6253e419825b4df5bf8bc/examples/backups/report.html"
+        },
+        {
+          "path": "examples/backups/summary.json",
+          "bytes": 176,
+          "git_blob_sha1": "df2633ae4133200ca5b4cb2ffb39f91028de68d9",
+          "kind": "text",
+          "source_url": "https://github.com/kira-sup/ksecure.dk/blob/c0c143657a82c1fda5a6253e419825b4df5bf8bc/examples/backups/summary.json"
+        },
+        {
+          "path": "examples/configs-log.json",
+          "bytes": 773,
+          "git_blob_sha1": "422144ae5ba8dbe1395465b848fe74b395e0b72d",
+          "kind": "text",
+          "source_url": "https://github.com/kira-sup/ksecure.dk/blob/c0c143657a82c1fda5a6253e419825b4df5bf8bc/examples/configs-log.json"
+        },
+        {
+          "path": "examples/configs/rb01/2026-11/rb01_2026-11-07.rsc",
+          "bytes": 65,
+          "git_blob_sha1": "fff19d277d4312ae05ba696e97b3aa5d28c25e50",
+          "kind": "text",
+          "source_url": "https://github.com/kira-sup/ksecure.dk/blob/c0c143657a82c1fda5a6253e419825b4df5bf8bc/examples/configs/rb01/2026-11/rb01_2026-11-07.rsc"
+        },
+        {
+          "path": "examples/configs/sw01/2026-11/sw01_2026-11-05.cfg",
+          "bytes": 67,
+          "git_blob_sha1": "dd6b818b322307220bfca103c668a04ca2227581",
+          "kind": "text",
+          "source_url": "https://github.com/kira-sup/ksecure.dk/blob/c0c143657a82c1fda5a6253e419825b4df5bf8bc/examples/configs/sw01/2026-11/sw01_2026-11-05.cfg"
+        },
+        {
+          "path": "examples/configs/sw01/2026-11/sw01_2026-11-07.cfg",
+          "bytes": 71,
+          "git_blob_sha1": "7e77f6a47ba0c456f479f4793048b2d84fdea771",
+          "kind": "text",
+          "source_url": "https://github.com/kira-sup/ksecure.dk/blob/c0c143657a82c1fda5a6253e419825b4df5bf8bc/examples/configs/sw01/2026-11/sw01_2026-11-07.cfg"
+        },
+        {
+          "path": "examples/downloads-log.json",
+          "bytes": 932,
+          "git_blob_sha1": "16f9a666ce356f131ffef0b71d6650e8b6d2dc6b",
+          "kind": "text",
+          "source_url": "https://github.com/kira-sup/ksecure.dk/blob/c0c143657a82c1fda5a6253e419825b4df5bf8bc/examples/downloads-log.json"
+        },
+        {
+          "path": "examples/downloads/Documents/notes.txt",
+          "bytes": 30,
+          "git_blob_sha1": "a5681a276ca15862da57801b0a21966199d5fb6b",
+          "kind": "text",
+          "source_url": "https://github.com/kira-sup/ksecure.dk/blob/c0c143657a82c1fda5a6253e419825b4df5bf8bc/examples/downloads/Documents/notes.txt"
+        },
+        {
+          "path": "examples/downloads/Documents/notes__1.txt",
+          "bytes": 33,
+          "git_blob_sha1": "339f71eca2035ff43e0dfbb90950fe4b5827a394",
+          "kind": "text",
+          "source_url": "https://github.com/kira-sup/ksecure.dk/blob/c0c143657a82c1fda5a6253e419825b4df5bf8bc/examples/downloads/Documents/notes__1.txt"
+        },
+        {
+          "path": "examples/downloads/Documents/readme.txt",
+          "bytes": 13,
+          "git_blob_sha1": "5d55983d15aa9ffeaf6a28ab5848a61e76e5cbbc",
+          "kind": "text",
+          "source_url": "https://github.com/kira-sup/ksecure.dk/blob/c0c143657a82c1fda5a6253e419825b4df5bf8bc/examples/downloads/Documents/readme.txt"
+        },
+        {
+          "path": "examples/downloads/Scripts/setup.ps1",
+          "bytes": 35,
+          "git_blob_sha1": "97deeefa85baa5704b9c0e12bdf5068a030ab0ac",
+          "kind": "text",
+          "source_url": "https://github.com/kira-sup/ksecure.dk/blob/c0c143657a82c1fda5a6253e419825b4df5bf8bc/examples/downloads/Scripts/setup.ps1"
+        },
+        {
+          "path": "examples/downloads/Tables/devices.csv",
+          "bytes": 33,
+          "git_blob_sha1": "2afb324950d871b9ffc56ca717012fc9d373901a",
+          "kind": "text",
+          "source_url": "https://github.com/kira-sup/ksecure.dk/blob/c0c143657a82c1fda5a6253e419825b4df5bf8bc/examples/downloads/Tables/devices.csv"
+        },
+        {
+          "path": "examples/inventory/clean.csv",
+          "bytes": 200,
+          "git_blob_sha1": "2a588a70a4940d62713b12baec4ea7d49192b829",
+          "kind": "text",
+          "source_url": "https://github.com/kira-sup/ksecure.dk/blob/c0c143657a82c1fda5a6253e419825b4df5bf8bc/examples/inventory/clean.csv"
+        },
+        {
+          "path": "examples/inventory/issues.csv",
+          "bytes": 180,
+          "git_blob_sha1": "9d9a681a831e8b1a324e28b84ed511ba089d3b70",
+          "kind": "text",
+          "source_url": "https://github.com/kira-sup/ksecure.dk/blob/c0c143657a82c1fda5a6253e419825b4df5bf8bc/examples/inventory/issues.csv"
+        },
+        {
+          "path": "examples/inventory/report.html",
+          "bytes": 1478,
+          "git_blob_sha1": "bb42d63bdabd048242d6e8a7b71a1b41b3a14c8e",
+          "kind": "text",
+          "source_url": "https://github.com/kira-sup/ksecure.dk/blob/c0c143657a82c1fda5a6253e419825b4df5bf8bc/examples/inventory/report.html"
+        },
+        {
+          "path": "examples/inventory/summary.json",
+          "bytes": 76,
+          "git_blob_sha1": "47ae37749682c605c3a8c0852e77d7d49a60578d",
+          "kind": "text",
+          "source_url": "https://github.com/kira-sup/ksecure.dk/blob/c0c143657a82c1fda5a6253e419825b4df5bf8bc/examples/inventory/summary.json"
+        },
+        {
+          "path": "index.html",
+          "bytes": 4380,
+          "git_blob_sha1": "d523620d8eb2dca66e9fe1768b80db50be30a5c1",
+          "kind": "text",
+          "source_url": "https://github.com/kira-sup/ksecure.dk/blob/c0c143657a82c1fda5a6253e419825b4df5bf8bc/index.html"
+        },
+        {
+          "path": "info.html",
+          "bytes": 3533,
+          "git_blob_sha1": "b63e8d041f20703e89c80354e8516b55876410c1",
+          "kind": "text",
+          "source_url": "https://github.com/kira-sup/ksecure.dk/blob/c0c143657a82c1fda5a6253e419825b4df5bf8bc/info.html"
+        },
+        {
+          "path": "projects.html",
+          "bytes": 8445,
+          "git_blob_sha1": "d802761480ce88b683cfab5473c12ca28846f65c",
+          "kind": "text",
+          "source_url": "https://github.com/kira-sup/ksecure.dk/blob/c0c143657a82c1fda5a6253e419825b4df5bf8bc/projects.html"
+        },
+        {
+          "path": "run_demo.py",
+          "bytes": 708,
+          "git_blob_sha1": "97f7e411175c7ef74f52ad40692c5357e8a345db",
+          "kind": "text",
+          "source_url": "https://github.com/kira-sup/ksecure.dk/blob/c0c143657a82c1fda5a6253e419825b4df5bf8bc/run_demo.py"
+        },
+        {
+          "path": "samples/backups.csv",
+          "bytes": 442,
+          "git_blob_sha1": "208962a5dd25044413454aa33fceadf7f5a2ded2",
+          "kind": "text",
+          "source_url": "https://github.com/kira-sup/ksecure.dk/blob/c0c143657a82c1fda5a6253e419825b4df5bf8bc/samples/backups.csv"
+        },
+        {
+          "path": "samples/configs/bad_2026-99-99.cfg",
+          "bytes": 30,
+          "git_blob_sha1": "e36db420a0b200c8af00647d7b6d20518f0f7531",
+          "kind": "text",
+          "source_url": "https://github.com/kira-sup/ksecure.dk/blob/c0c143657a82c1fda5a6253e419825b4df5bf8bc/samples/configs/bad_2026-99-99.cfg"
+        },
+        {
+          "path": "samples/configs/notes.txt",
+          "bytes": 27,
+          "git_blob_sha1": "e268de193875e58df25e1421d9175e35466f3f1b",
+          "kind": "text",
+          "source_url": "https://github.com/kira-sup/ksecure.dk/blob/c0c143657a82c1fda5a6253e419825b4df5bf8bc/samples/configs/notes.txt"
+        },
+        {
+          "path": "samples/configs/rb01_2026-11-07.rsc",
+          "bytes": 65,
+          "git_blob_sha1": "fff19d277d4312ae05ba696e97b3aa5d28c25e50",
+          "kind": "text",
+          "source_url": "https://github.com/kira-sup/ksecure.dk/blob/c0c143657a82c1fda5a6253e419825b4df5bf8bc/samples/configs/rb01_2026-11-07.rsc"
+        },
+        {
+          "path": "samples/configs/sw01_2026-11-05.cfg",
+          "bytes": 67,
+          "git_blob_sha1": "dd6b818b322307220bfca103c668a04ca2227581",
+          "kind": "text",
+          "source_url": "https://github.com/kira-sup/ksecure.dk/blob/c0c143657a82c1fda5a6253e419825b4df5bf8bc/samples/configs/sw01_2026-11-05.cfg"
+        },
+        {
+          "path": "samples/configs/sw01_2026-11-07.cfg",
+          "bytes": 71,
+          "git_blob_sha1": "7e77f6a47ba0c456f479f4793048b2d84fdea771",
+          "kind": "text",
+          "source_url": "https://github.com/kira-sup/ksecure.dk/blob/c0c143657a82c1fda5a6253e419825b4df5bf8bc/samples/configs/sw01_2026-11-07.cfg"
+        },
+        {
+          "path": "samples/downloads/devices.csv",
+          "bytes": 33,
+          "git_blob_sha1": "2afb324950d871b9ffc56ca717012fc9d373901a",
+          "kind": "text",
+          "source_url": "https://github.com/kira-sup/ksecure.dk/blob/c0c143657a82c1fda5a6253e419825b4df5bf8bc/samples/downloads/devices.csv"
+        },
+        {
+          "path": "samples/downloads/misc/readme.txt",
+          "bytes": 13,
+          "git_blob_sha1": "5d55983d15aa9ffeaf6a28ab5848a61e76e5cbbc",
+          "kind": "text",
+          "source_url": "https://github.com/kira-sup/ksecure.dk/blob/c0c143657a82c1fda5a6253e419825b4df5bf8bc/samples/downloads/misc/readme.txt"
+        },
+        {
+          "path": "samples/downloads/notes.txt",
+          "bytes": 30,
+          "git_blob_sha1": "a5681a276ca15862da57801b0a21966199d5fb6b",
+          "kind": "text",
+          "source_url": "https://github.com/kira-sup/ksecure.dk/blob/c0c143657a82c1fda5a6253e419825b4df5bf8bc/samples/downloads/notes.txt"
+        },
+        {
+          "path": "samples/downloads/other/notes.txt",
+          "bytes": 33,
+          "git_blob_sha1": "339f71eca2035ff43e0dfbb90950fe4b5827a394",
+          "kind": "text",
+          "source_url": "https://github.com/kira-sup/ksecure.dk/blob/c0c143657a82c1fda5a6253e419825b4df5bf8bc/samples/downloads/other/notes.txt"
+        },
+        {
+          "path": "samples/downloads/setup.ps1",
+          "bytes": 35,
+          "git_blob_sha1": "97deeefa85baa5704b9c0e12bdf5068a030ab0ac",
+          "kind": "text",
+          "source_url": "https://github.com/kira-sup/ksecure.dk/blob/c0c143657a82c1fda5a6253e419825b4df5bf8bc/samples/downloads/setup.ps1"
+        },
+        {
+          "path": "samples/inventory.csv",
+          "bytes": 282,
+          "git_blob_sha1": "ff04b44d114aab42db0b2866c11616b512daac0c",
+          "kind": "text",
+          "source_url": "https://github.com/kira-sup/ksecure.dk/blob/c0c143657a82c1fda5a6253e419825b4df5bf8bc/samples/inventory.csv"
+        },
+        {
+          "path": "solutions.html",
+          "bytes": 4919,
+          "git_blob_sha1": "6a341261fcefa6e33c91d91efc9104ccdc2e8cc0",
+          "kind": "text",
+          "source_url": "https://github.com/kira-sup/ksecure.dk/blob/c0c143657a82c1fda5a6253e419825b4df5bf8bc/solutions.html"
+        },
+        {
+          "path": "tests/test_tools.py",
+          "bytes": 1815,
+          "git_blob_sha1": "050a708a5550581eea9f98677622926d8f086b7d",
+          "kind": "text",
+          "source_url": "https://github.com/kira-sup/ksecure.dk/blob/c0c143657a82c1fda5a6253e419825b4df5bf8bc/tests/test_tools.py"
+        },
+        {
+          "path": "tests/test_xlsx.py",
+          "bytes": 1689,
+          "git_blob_sha1": "3c7b576e8b28194d03acebcb5dc82a1501c4158c",
+          "kind": "text",
+          "source_url": "https://github.com/kira-sup/ksecure.dk/blob/c0c143657a82c1fda5a6253e419825b4df5bf8bc/tests/test_xlsx.py"
+        },
+        {
+          "path": "tools/sort_files.py",
+          "bytes": 4162,
+          "git_blob_sha1": "c702e76aaf6ed94851ec22e5e524804e28800f50",
+          "kind": "text",
+          "source_url": "https://github.com/kira-sup/ksecure.dk/blob/c0c143657a82c1fda5a6253e419825b4df5bf8bc/tools/sort_files.py"
+        },
+        {
+          "path": "tools/tables.py",
+          "bytes": 8050,
+          "git_blob_sha1": "23841ece4dc9a16a74220609098d88ed453077f0",
+          "kind": "text",
+          "source_url": "https://github.com/kira-sup/ksecure.dk/blob/c0c143657a82c1fda5a6253e419825b4df5bf8bc/tools/tables.py"
+        },
+        {
+          "path": "web/index.html",
+          "bytes": 179,
+          "git_blob_sha1": "ba555a86b6013e7b2b960913dd0f44cb791e8043",
+          "kind": "text",
+          "source_url": "https://github.com/kira-sup/ksecure.dk/blob/c0c143657a82c1fda5a6253e419825b4df5bf8bc/web/index.html"
+        },
+        {
+          "path": "web/lab.html",
+          "bytes": 5243,
+          "git_blob_sha1": "ca71fae5e7a888698aa2eaf858d5a1cabf2b087f",
+          "kind": "text",
+          "source_url": "https://github.com/kira-sup/ksecure.dk/blob/c0c143657a82c1fda5a6253e419825b4df5bf8bc/web/lab.html"
+        },
+        {
+          "path": "web/styles.css",
+          "bytes": 4665,
+          "git_blob_sha1": "51c5125b2d9196770bc4c618d0b73580aefd8e86",
+          "kind": "text",
+          "source_url": "https://github.com/kira-sup/ksecure.dk/blob/c0c143657a82c1fda5a6253e419825b4df5bf8bc/web/styles.css"
+        },
+        {
+          "path": "web/support.html",
+          "bytes": 4587,
+          "git_blob_sha1": "f42f46320117a0fb0a5aad9e6b0fa6da1f7e4bd5",
+          "kind": "text",
+          "source_url": "https://github.com/kira-sup/ksecure.dk/blob/c0c143657a82c1fda5a6253e419825b4df5bf8bc/web/support.html"
+        }
+      ]
+    }
+  }
+}
