@@ -1,15 +1,15 @@
 # KSecure
 
-A customer-focused static website for websites, custom tools, automation, data and practical IT help.
+A brand-led freelance website for KSecure: websites, custom tools, automation, data and practical IT help.
 
-- Home: a short introduction.
-- Solutions: areas of work and possible project types.
-- Projects: six learning examples with PDF project briefs.
-- Info: personal background, process and public contact.
+- Home: KSecure's capabilities and approach.
+- Services (`solutions.html`): six service areas, possible deliverables and scope.
+- About KSecure (`info.html`): the freelance practice, working process and public contact.
+- Former Projects URL: redirects to Services.
 
-The project portfolio PDF is in `documents/`. Visual website examples and sample HTML reports remain available. Program downloads and step-by-step guides have been removed from the published repository tree.
+The main visitor experience focuses on KSecure and its services. Personal biography, project-example cards and PDF portfolio promotions have been removed from the main pages. Earlier PDF, report and demo files remain in the repository for reference; they are not featured in the main navigation.
 
-All example data is synthetic. Projects are personal learning work, not customer case studies. Scope and feasibility are agreed for each new request.
+Scope and feasibility are agreed for each new request. The current public contact remains the existing GitHub profile until a business email or booking URL is provided. Historical example data is synthetic and does not represent customer case studies.
 
 Hosted with GitHub Pages at https://ksecure.dk.
 
@@ -17,7 +17,9 @@ Hosted with GitHub Pages at https://ksecure.dk.
 
 Start with [the maintainer documentation](documentation/README.md) for architecture, local setup, publishing, maintenance, troubleshooting, recovery and project history.
 
-- [Current website: complete source archive](documentation/SOURCE-CURRENT.md)
+Read [Studio redesign](documentation/STUDIO-REDESIGN.md) for the latest page structure and maintenance details. The source archives below preserve the earlier snapshots; current website source is in the root HTML files and `assets/`.
+
+- [Earlier website: complete source snapshot](documentation/SOURCE-CURRENT.md)
 - [Historical tools, commands and limitations](documentation/ARCHIVED-TOOLS.md)
 - [Historical bundle: complete source, tests, samples and guides](documentation/SOURCE-HISTORICAL.md)
 - [File inventory, hashes and binary references](documentation/SOURCE-MANIFEST.json)

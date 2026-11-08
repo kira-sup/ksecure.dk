@@ -1,5 +1,7 @@
 # KSecure — complete project documentation
 
+> **Current website update — 9 November 2026:** KSecure now presents freelance services, capabilities and its working process. Read [Studio redesign](STUDIO-REDESIGN.md) for the current page structure and maintenance notes. The architecture descriptions and complete source snapshots below preserve the earlier example-led site and historical tools.
+
 Recorded on **8 November 2026** for [kira-sup/ksecure.dk](https://github.com/kira-sup/ksecure.dk).
 
 This is the maintainer's memory of the project: what exists, how it works, how to change and recover it, and the complete text source of both the current website and an earlier tool bundle. It documents repository evidence; it does not assume that project descriptions are deployed services or that an example report proves a real system works.

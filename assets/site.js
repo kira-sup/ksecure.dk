@@ -1,20 +1,35 @@
-(()=>{'use strict';
-const menu=document.querySelector('.menu-toggle'),nav=document.querySelector('#navigation');
-menu?.addEventListener('click',()=>{const open=menu.getAttribute('aria-expanded')!=='true';menu.setAttribute('aria-expanded',String(open));menu.setAttribute('aria-label',open?'Close navigation':'Open navigation');nav.classList.toggle('open',open)});
-nav?.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{nav.classList.remove('open');menu?.setAttribute('aria-expanded','false');menu?.setAttribute('aria-label','Open navigation')}));
-document.addEventListener('keydown',e=>{if(e.key==='Escape'&&nav?.classList.contains('open')){nav.classList.remove('open');menu.setAttribute('aria-expanded','false');menu.setAttribute('aria-label','Open navigation');menu.focus()}});
-if('IntersectionObserver'in window&&!matchMedia('(prefers-reduced-motion: reduce)').matches){document.documentElement.classList.add('js-ready');const io=new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');io.unobserve(e.target)}})},{threshold:.06});document.querySelectorAll('.reveal').forEach(e=>io.observe(e))}
-let category='all';const search=document.querySelector('#project-search');
-function filterProjects(){let visible=0;const term=(search?.value||'').toLowerCase().trim();document.querySelectorAll('.project-card').forEach(c=>{c.hidden=!(category==='all'||c.dataset.category===category)||!c.dataset.search.includes(term);if(!c.hidden){visible++;c.classList.add('visible')}});const empty=document.querySelector('#no-projects');if(empty)empty.hidden=visible!==0}
-function setCategory(value){category=value;document.querySelectorAll('[data-filter]').forEach(b=>{const active=b.dataset.filter===value;b.classList.toggle('active',active);b.setAttribute('aria-pressed',String(active))});filterProjects()}
-document.querySelectorAll('[data-filter]').forEach(b=>b.addEventListener('click',()=>setCategory(b.dataset.filter)));search?.addEventListener('input',filterProjects);
-const requestedCategory=new URLSearchParams(window.location.search).get('category');if(['files','data','websites'].includes(requestedCategory)&&document.querySelector('#projects'))setCategory(requestedCategory);
-
-document.querySelectorAll('[data-shortcut]').forEach(a=>a.addEventListener('click',()=>{if(search)search.value='';setCategory(a.dataset.shortcut)}));
-let sorted=false;const sort=document.querySelector('#sort-demo');sort?.addEventListener('click',()=>{sorted=!sorted;document.querySelector('#sample-files').innerHTML=sorted?'<div class="sorted-group"><strong>▱ Documents</strong><p>lab-notes.txt · network-plan.pdf</p></div><div class="sorted-group"><strong>⌘ Scripts</strong><p>daily-report.py</p></div><div class="sorted-group"><strong>▦ Tables</strong><p>devices.csv</p></div>':'<div class="sample-row"><span>TXT</span>lab-notes.txt<small>Document</small></div><div class="sample-row"><span>PY</span>daily-report.py<small>Script</small></div><div class="sample-row"><span>CSV</span>devices.csv<small>Spreadsheet</small></div><div class="sample-row"><span>PDF</span>network-plan.pdf<small>Document</small></div>';document.querySelector('#sort-state').textContent=sorted?'4 sample files. 3 organised folders.':'Sample downloads folder';sort.innerHTML=sorted?'Reset sample <span>↺</span>':'Organise sample files <span>→</span>'});
-const ds=document.querySelector('#docs-search');ds?.addEventListener('input',()=>{let n=0;const term=ds.value.toLowerCase().trim();document.querySelectorAll('.guide-item').forEach(g=>{g.hidden=!g.dataset.search.includes(term);if(!g.hidden)n++});document.querySelector('#no-guides').hidden=n!==0});
-let toastTimer;function toast(message){const t=document.querySelector('.toast');t.textContent=message;t.classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>t.classList.remove('show'),2500)}
-document.querySelectorAll('.copy-code').forEach(b=>b.addEventListener('click',async()=>{const code=b.parentElement.querySelector('code');try{await navigator.clipboard.writeText(code.textContent);toast('Command copied')}catch{const sel=window.getSelection(),r=document.createRange();r.selectNodeContents(code);sel.removeAllRanges();sel.addRange(r);toast('Command selected — copy it with your keyboard')}}));
+(() => {
+  'use strict';
+  document.documentElement.classList.add('js');
+  const menu = document.querySelector('.menu-toggle');
+  const navigation = document.querySelector('#navigation');
+  if (menu && navigation) {
+    const closeMenu = () => {
+      navigation.classList.remove('open');
+      menu.setAttribute('aria-expanded', 'false');
+      menu.setAttribute('aria-label', 'Open navigation');
+    };
+    menu.addEventListener('click', () => {
+      const open = menu.getAttribute('aria-expanded') !== 'true';
+      navigation.classList.toggle('open', open);
+      menu.setAttribute('aria-expanded', String(open));
+      menu.setAttribute('aria-label', open ? 'Close navigation' : 'Open navigation');
+    });
+    navigation.querySelectorAll('a').forEach(link => link.addEventListener('click', closeMenu));
+    document.addEventListener('keydown', event => {
+      if (event.key === 'Escape' && navigation.classList.contains('open')) {
+        closeMenu();
+        menu.focus();
+      }
+    });
+    const desktop = window.matchMedia('(min-width: 801px)');
+    desktop.addEventListener('change', event => { if (event.matches) closeMenu(); });
+  }
+  if (location.pathname === '/' || location.pathname.endsWith('/index.html')) {
+    const oldRoutes = {
+      '#projects': 'solutions.html', '#solutions': 'solutions.html',
+      '#skills': 'solutions.html', '#contact': 'info.html#contact'
+    };
+    if (oldRoutes[location.hash]) location.replace(oldRoutes[location.hash]);
+  }
 })();
-
-if(location.pathname==='/'||location.pathname.endsWith('/index.html')){const oldRoutes={'#projects':'projects.html','#solutions':'solutions.html','#skills':'info.html','#contact':'info.html'};if(oldRoutes[location.hash])location.replace(oldRoutes[location.hash]);}
