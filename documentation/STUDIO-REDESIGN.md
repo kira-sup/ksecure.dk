@@ -14,7 +14,7 @@ Prepared for publication on 9 November 2026. This revision follows the owner's r
 | [assets/site.css](../assets/site.css) | New responsive blue, ink and pale-background visual system |
 | [assets/site.js](../assets/site.js) | Mobile menu, Escape handling, desktop reset and old homepage fragment redirects |
 
-Main navigation is Home, Services, About KSecure and Let's talk. The main pages contain no personal biography, sample-project cards, report previews or PDF portfolio promotions. Earlier PDF, demo and report files are retained in Git and at their existing paths for reference; they are not linked from the main visitor pages.
+Main navigation is Home, Services and About KSecure. Repeated contact calls to action were removed at the owner's request; the circular “Discuss a project” buttons on Home and Services are retained, together with the contact section's email link. The main pages contain no personal biography, sample-project cards, report previews or PDF portfolio promotions. Earlier PDF, demo and report files are retained in Git and at their existing paths for reference; they are not linked from the main visitor pages.
 
 ## Services and scope
 
@@ -26,7 +26,7 @@ KSecure is described as an independent freelance practice. It does not claim to 
 
 System fonts, large editorial headings, numbered services and custom inline SVG artwork provide the brand presentation. There are no external font or image dependencies. The main stylesheet replaces the old stylesheet; it no longer contains historical project search, file-sort illustrations or guide-page components.
 
-The main pages share duplicated header/footer markup. Update all three when changing navigation, contact labels or shared destinations. The service sections use IDs `websites`, `tools`, `automation`, `data`, `it` and `documentation`; homepage service links and the service index rely on them. `info.html#contact` is the shared enquiry destination.
+The main pages share duplicated header/footer markup. Update all three when changing navigation, contact labels or shared destinations. The service sections use IDs `websites`, `tools`, `automation`, `data`, `it` and `documentation`; homepage service links and the service index rely on them. `info.html#contact` is the destination of the retained circular “Discuss a project” buttons.
 
 At widths up to 800px, JavaScript enables an expandable mobile menu. Without JavaScript the mobile navigation remains visible. Menu actions update the label and expanded state. Escape closes the menu and returns focus. Switching to desktop width clears an open mobile state. The stylesheet includes visible keyboard focus and reduced-motion overrides. Content is visible without reveal-animation dependencies.
 
