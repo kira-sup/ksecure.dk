@@ -7,9 +7,9 @@ Prepared for publication on 9 November 2026. This revision follows the owner's r
 | File | Purpose |
 | --- | --- |
 | [index.html](../index.html) | Direct service introduction, six capabilities, three-step process and the retained project button |
-| [solutions.html](../solutions.html) | Detailed service sections, potential deliverables, scope boundaries and service anchor navigation |
+| [solutions.html](../solutions.html) | Legacy redirect to the homepage service carousel |
 | [info.html](../info.html) | Brief business description, three project expectations and `#contact` |
-| [projects.html](../projects.html) | Meta-refresh redirect and fallback link to Services, retaining the old URL |
+| [projects.html](../projects.html) | Legacy redirect to the homepage service carousel |
 | [404.html](../404.html) | Missing-page recovery through Home, Services and Contact |
 | [assets/site.css](../assets/site.css) | New responsive blue, ink and pale-background visual system |
 | [assets/site.js](../assets/site.js) | Mobile menu, Escape handling, desktop reset and old homepage fragment redirects |
@@ -55,3 +55,7 @@ The service row is replaced by a centered, large-slide carousel with partially v
 ## Carousel controls update — 9 November 2026
 
 At the owner’s request, the numerical slide counter and visible play/pause toggle are removed. Previous and next arrows sit at the left and right edges of the slide area, with selection dots centered below. Automatic cycling still pauses for hover, keyboard focus, hidden tabs and reduced-motion preferences. Using an arrow, dot, keyboard action or swipe stops automatic cycling for the rest of that page visit.
+
+## Separate Services page removed — 9 November 2026
+
+The owner removed the repeated Services detail page. The six service slides on the homepage are now the sole main service presentation, at `index.html#services`. Navigation, footer and recovery links point there. The six “View service” links were removed from the slides because there is no longer a separate detail destination. `solutions.html` and `projects.html` are minimal redirects to the homepage carousel, preserving old URLs without the deleted content. Earlier descriptions in this history record the previous implementation.

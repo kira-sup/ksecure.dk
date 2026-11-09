@@ -3,9 +3,9 @@
 A brand-led freelance website for KSecure: websites, custom tools, automation, data and practical IT help.
 
 - Home: KSecure's capabilities and approach.
-- Services (`solutions.html`): six service areas, possible deliverables and scope.
+- Services: six slides in the homepage carousel (`#services`).
 - About KSecure (`info.html`): the freelance practice, working process and public contact.
-- Former Projects URL: redirects to Services.
+- Former Services and Projects URLs: redirect to the homepage carousel.
 
 The main visitor experience focuses on KSecure and its services. Personal biography, project-example cards and PDF portfolio promotions have been removed from the main pages. Earlier PDF, report and demo files remain in the repository for reference; they are not featured in the main navigation.
 
