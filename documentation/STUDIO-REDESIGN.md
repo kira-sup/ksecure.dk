@@ -43,3 +43,7 @@ The [previous architecture](ARCHITECTURE.md), [operations guide](OPERATIONS.md) 
 ## Plain-language copy update — 9 November 2026
 
 At the owner’s request, the main pages use short, factual service descriptions. The decorative slogans, capability strip, blue statement band, repeated values section and long introductory paragraphs were removed. Services keep one description and a deliverables list each. Trust is supported by explaining scope, price and timing before work, review against requirements, and files with usage notes at handover. No testimonials, customer counts, credentials or guarantees were added. The two “Discuss a project” buttons and the supplied email address remain.
+
+## Horizontal services slider — 9 November 2026
+
+The homepage service grid is now a single horizontal row of scroll-snap cards. It supports native touch/trackpad scrolling, previous/next buttons, a visible-range counter, and arrow keys when the track has focus. Controls appear only with JavaScript; native scrolling remains available without it. No slides advance automatically. Reduced-motion preferences disable smooth programmatic scrolling. The detailed Services page and its six fragment destinations remain unchanged. Homepage asset links include a version query so returning visitors receive the matching CSS and JavaScript.
