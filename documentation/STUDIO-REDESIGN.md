@@ -71,3 +71,7 @@ Automatic slide starts are now 2.5 seconds apart. The movement duration remains 
 ## Contact moved to homepage; About removed — 9 November 2026
 
 The existing contact section, enquiry checklist and `mailto:khavenko@gmail.com` link now appear on the homepage at `#contact`. The separate About KSecure page and its navigation/footer links are removed. Its old URL redirects to `index.html#contact`. The retained “Discuss a project” button scrolls directly to the homepage contact section. JavaScript no longer redirects the homepage `#contact` fragment, avoiding a redirect loop. Existing home service slides, automatic timing and opposite-side arrows are unchanged.
+
+## Repeated contact banner removed — 9 November 2026
+
+The owner removed the “Need help with a task?” banner, its circular “Discuss a project” button and the footer tagline “Freelance websites, tools and IT support.” The actual homepage contact section, enquiry checklist and email link remain.
