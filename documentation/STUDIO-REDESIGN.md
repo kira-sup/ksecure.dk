@@ -51,3 +51,7 @@ The homepage service grid is now a single horizontal row of scroll-snap cards. I
 ## Centered feature carousel — 9 November 2026
 
 The service row is replaced by a centered, large-slide carousel with partially visible neighbours, service-specific vector artwork, dot navigation and previous/next controls. Slides change every 5.5 seconds only while the carousel is in view; playback pauses on hover, keyboard focus and hidden tabs. A play/pause button is provided. Reduced-motion users start paused. Manual arrows, dots, keyboard navigation and swipe gestures remain available. Cloned end slides create a continuous loop and are hidden from accessibility APIs. Without JavaScript, the six original slides remain horizontally scrollable. This supersedes the earlier horizontal-card implementation.
+
+## Carousel controls update — 9 November 2026
+
+At the owner’s request, the numerical slide counter and visible play/pause toggle are removed. Previous and next arrows sit at the left and right edges of the slide area, with selection dots centered below. Automatic cycling still pauses for hover, keyboard focus, hidden tabs and reduced-motion preferences. Using an arrow, dot, keyboard action or swipe stops automatic cycling for the rest of that page visit.

@@ -52,3 +52,13 @@
 @media(max-width:800px){.feature-services{padding-block:55px}.feature-heading{margin-bottom:25px}.feature-heading h2{font-size:40px}.feature-slide{width:82vw;min-height:500px}.feature-track{padding-inline:9vw}.feature-art{inset:5px 1% auto 8%;height:300px}.feature-caption{left:30px;right:30px;bottom:30px}.feature-caption h3{font-size:38px}.feature-caption p{font-size:14px}.feature-dots button{min-width:24px;width:24px}.feature-count{display:none}}
 @media(max-width:580px){.feature-services{padding-block:40px}.feature-heading{align-items:start;flex-direction:column;gap:10px}.feature-heading .eyebrow{margin:0}.feature-heading h2{font-size:35px}.feature-track{gap:12px;padding-inline:7vw}.feature-slide{width:86vw;min-height:475px}.feature-art{inset:5px -3% auto -3%;height:265px}.feature-caption{left:24px;right:24px;bottom:27px}.feature-caption h3{font-size:31px;max-width:100%}.feature-caption p{font-size:13px;line-height:1.6;margin-top:12px}.feature-number{font-size:9px}.feature-link{font-size:11px;padding:9px 17px;margin-top:19px}.feature-controls{gap:8px}.feature-controls button{height:38px;min-width:38px}.feature-dots{gap:0}.feature-dots button{height:38px;min-width:21px;width:21px}.feature-dots button[aria-current=true] span{width:17px}.feature-arrows{gap:6px}.feature-playback{gap:0}}
 @media(prefers-reduced-motion:reduce){.carousel-ready .feature-track,.carousel-ready .feature-slide,.feature-dots button span{transition:none}}
+
+/* Side arrows; the numerical counter and playback toggle are removed. */
+.feature-stage{position:relative}
+.feature-stage .feature-side-arrow{display:none}
+.carousel-ready .feature-stage .feature-side-arrow{position:absolute;top:50%;transform:translateY(-50%);z-index:4;display:grid;place-items:center;width:46px;height:46px;padding:0;border:1px solid #c4cddd;border-radius:50%;background:#fffffff0;box-shadow:0 2px 12px #1420350c;color:var(--ink);font:22px/1 system-ui;cursor:pointer}
+.feature-side-arrow:hover{background:var(--blue)!important;color:#fff!important;border-color:var(--blue)!important}
+.feature-prev{left:clamp(12px,5vw,65px)}
+.feature-next{right:clamp(12px,5vw,65px)}
+.feature-controls{justify-content:center}
+@media(max-width:580px){.carousel-ready .feature-stage .feature-side-arrow{width:38px;height:38px;font-size:20px}.feature-prev{left:7px}.feature-next{right:7px}}

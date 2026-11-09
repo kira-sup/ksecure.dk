@@ -40,8 +40,6 @@
     const slides = Array.from(track.children);
     const dots = Array.from(root.querySelectorAll('[data-feature-dot]'));
     const controls = root.querySelector('.feature-controls');
-    const play = root.querySelector('[data-feature-play]');
-    const counter = root.querySelector('.feature-count');
     const reduced = matchMedia('(prefers-reduced-motion: reduce)');
     const total = slides.length;
     if (total < 2) return;
@@ -81,11 +79,7 @@
         if (i === index) dot.setAttribute('aria-current', 'true');
         else dot.removeAttribute('aria-current');
       });
-      counter.setAttribute('aria-live', manual ? 'polite' : 'off');
-      counter.textContent = (index + 1) + ' / ' + total;
       root.dataset.activeSlide = String(index + 1);
-      play.setAttribute('aria-label', paused ? 'Play automatic slides' : 'Pause automatic slides');
-      play.firstElementChild.textContent = paused ? '▶' : 'Ⅱ';
     };
     const settle = () => {
       if (current === 0 || current === total + 1) {
@@ -97,6 +91,7 @@
     };
     function go(index, manual) {
       if (moving || index === current) return;
+      if (manual) paused = true;
       moving = true;
       current = index;
       position(false);
@@ -108,7 +103,6 @@
     root.querySelector('[data-feature-prev]').addEventListener('click', () => go(current - 1, true));
     root.querySelector('[data-feature-next]').addEventListener('click', () => go(current + 1, true));
     dots.forEach((dot, i) => dot.addEventListener('click', () => go(i + 1, true)));
-    play.addEventListener('click', () => { paused = !paused; update(false); schedule(); });
     root.addEventListener('mouseenter', () => { hovered = true; schedule(); });
     root.addEventListener('mouseleave', () => { hovered = false; schedule(); });
     root.addEventListener('focusin', () => { focused = true; schedule(); });
