@@ -8,7 +8,7 @@ Prepared for publication on 9 November 2026. This revision follows the owner's r
 | --- | --- |
 | [index.html](../index.html) | Direct service introduction, six capabilities, three-step process and the retained project button |
 | [solutions.html](../solutions.html) | Legacy redirect to the homepage service carousel |
-| [info.html](../info.html) | Brief business description, three project expectations and `#contact` |
+| [info.html](../info.html) | Legacy redirect to the homepage contact section |
 | [projects.html](../projects.html) | Legacy redirect to the homepage service carousel |
 | [404.html](../404.html) | Missing-page recovery through Home, Services and Contact |
 | [assets/site.css](../assets/site.css) | New responsive blue, ink and pale-background visual system |
@@ -67,3 +67,7 @@ Service slides advance every 4.5 seconds with a 1.1-second eased transition and 
 ## Shorter pause between services — 9 November 2026
 
 Automatic slide starts are now 2.5 seconds apart. The movement duration remains 1.1 seconds, leaving about 1.4 seconds stationary between transitions. This changes the pause, not the animation speed.
+
+## Contact moved to homepage; About removed — 9 November 2026
+
+The existing contact section, enquiry checklist and `mailto:khavenko@gmail.com` link now appear on the homepage at `#contact`. The separate About KSecure page and its navigation/footer links are removed. Its old URL redirects to `index.html#contact`. The retained “Discuss a project” button scrolls directly to the homepage contact section. JavaScript no longer redirects the homepage `#contact` fragment, avoiding a redirect loop. Existing home service slides, automatic timing and opposite-side arrows are unchanged.

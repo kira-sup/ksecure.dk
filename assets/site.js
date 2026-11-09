@@ -28,7 +28,7 @@
   if (location.pathname === '/' || location.pathname.endsWith('/index.html')) {
     const oldRoutes = {
       '#projects': 'index.html#services', '#solutions': 'index.html#services',
-      '#skills': 'index.html#services', '#contact': 'info.html#contact'
+      '#skills': 'index.html#services'
     };
     if (oldRoutes[location.hash]) location.replace(oldRoutes[location.hash]);
   }
