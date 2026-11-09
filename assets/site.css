@@ -73,3 +73,8 @@
 .button .translated-label,.text-link .translated-label{font-size:inherit;line-height:inherit}
 .error-page .language-toggle{float:right}
 @media(max-width:800px){.header-actions{order:2;gap:10px}.site-header>nav{order:3}.language-toggle{font-size:11px;padding:8px 12px}}
+
+/* Keep the normal arrow over page text; editable fields retain their text cursor. */
+body{cursor:default}
+a,button,[role="button"]{cursor:pointer}
+input,textarea,[contenteditable="true"]{cursor:text}
