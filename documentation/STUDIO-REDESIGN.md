@@ -63,3 +63,7 @@ The owner removed the repeated Services detail page. The six service slides on t
 ## Smooth automatic service transitions — 9 November 2026
 
 Service slides advance every 4.5 seconds with a 1.1-second eased transition and a seamless loop. Mouse hover and manual arrow/dot/swipe actions no longer permanently stop playback. Autoplay restarts its delay after navigation and pauses while the carousel is outside the viewport, the tab is hidden, or a keyboard-focused control is being used. Reduced-motion preferences continue to disable automatic movement. Counter and playback buttons remain removed, and arrows retain their opposite-side positions.
+
+## Shorter pause between services — 9 November 2026
+
+Automatic slide starts are now 2.5 seconds apart. The movement duration remains 1.1 seconds, leaving about 1.4 seconds stationary between transitions. This changes the pause, not the animation speed.

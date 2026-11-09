@@ -64,7 +64,7 @@
     };
     const schedule = () => {
       clearTimeout(timer);
-      if (!reduced.matches && !focused && inView && !document.hidden) timer = setTimeout(() => go(current + 1, false), 4500);
+      if (!reduced.matches && !focused && inView && !document.hidden) timer = setTimeout(() => go(current + 1, false), 2500);
     };
     const update = manual => {
       const index = logical();
