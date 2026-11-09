@@ -83,3 +83,7 @@ English remains the default, following the owner’s clarification. A header but
 ## Text cursor update — 9 November 2026
 
 The page uses the normal arrow cursor over text. Links and buttons retain the hand pointer, and editable fields retain a text cursor. Text selection remains available.
+
+## Repeated labels removed — 9 November 2026
+
+Removed the visible “Services” heading and navigation link, both “Explore services” links, the “PROJECT PROCESS” label and the introductory contact sentence. The service carousel, process steps, contact checklist, email button and language switch remain. Removing the underlying translation-marked elements removes these items in both English and Danish.

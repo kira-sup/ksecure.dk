@@ -78,3 +78,5 @@
 body{cursor:default}
 a,button,[role="button"]{cursor:pointer}
 input,textarea,[contenteditable="true"]{cursor:text}
+
+.section-heading>div:only-child{grid-column:1/-1}
