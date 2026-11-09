@@ -43,7 +43,7 @@
     const reduced = matchMedia('(prefers-reduced-motion: reduce)');
     const total = slides.length;
     if (total < 2) return;
-    let current = 1, timer, paused = reduced.matches, hovered = false, focused = false, inView = false, moving = false;
+    let current = 1, timer, focused = false, inView = false, moving = false;
     const clone = slide => {
       const copy = slide.cloneNode(true);
       copy.setAttribute('aria-hidden', 'true');
@@ -64,7 +64,7 @@
     };
     const schedule = () => {
       clearTimeout(timer);
-      if (!paused && !hovered && !focused && inView && !document.hidden) timer = setTimeout(() => go(current + 1, false), 5500);
+      if (!reduced.matches && !focused && inView && !document.hidden) timer = setTimeout(() => go(current + 1, false), 4500);
     };
     const update = manual => {
       const index = logical();
@@ -91,7 +91,6 @@
     };
     function go(index, manual) {
       if (moving || index === current) return;
-      if (manual) paused = true;
       moving = true;
       current = index;
       position(false);
@@ -103,10 +102,8 @@
     root.querySelector('[data-feature-prev]').addEventListener('click', () => go(current - 1, true));
     root.querySelector('[data-feature-next]').addEventListener('click', () => go(current + 1, true));
     dots.forEach((dot, i) => dot.addEventListener('click', () => go(i + 1, true)));
-    root.addEventListener('mouseenter', () => { hovered = true; schedule(); });
-    root.addEventListener('mouseleave', () => { hovered = false; schedule(); });
-    root.addEventListener('focusin', () => { focused = true; schedule(); });
-    root.addEventListener('focusout', () => { requestAnimationFrame(() => { focused = root.contains(document.activeElement); schedule(); }); });
+    root.addEventListener('focusin', () => { focused = document.activeElement.matches(':focus-visible'); schedule(); });
+    root.addEventListener('focusout', () => { requestAnimationFrame(() => { focused = root.contains(document.activeElement) && document.activeElement.matches(':focus-visible'); schedule(); }); });
     viewport.addEventListener('keydown', event => {
       if (!['ArrowLeft', 'ArrowRight', 'Home', 'End'].includes(event.key)) return;
       event.preventDefault();
@@ -123,7 +120,7 @@
     viewport.addEventListener('pointercancel', () => { pointerStart = null; });
     viewport.addEventListener('click', event => { if (swiped) { event.preventDefault(); swiped = false; } }, true);
     document.addEventListener('visibilitychange', schedule);
-    reduced.addEventListener('change', () => { if (reduced.matches) { paused = true; settle(); } update(false); schedule(); });
+    reduced.addEventListener('change', () => { if (reduced.matches) settle(); update(false); schedule(); });
     new ResizeObserver(() => { position(true); moving = false; }).observe(viewport);
     new IntersectionObserver(entries => { inView = entries[0].isIntersecting; schedule(); }, {threshold: .25}).observe(root);
     position(true);

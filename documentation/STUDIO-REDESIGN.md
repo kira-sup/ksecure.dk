@@ -59,3 +59,7 @@ At the owner’s request, the numerical slide counter and visible play/pause tog
 ## Separate Services page removed — 9 November 2026
 
 The owner removed the repeated Services detail page. The six service slides on the homepage are now the sole main service presentation, at `index.html#services`. Navigation, footer and recovery links point there. The six “View service” links were removed from the slides because there is no longer a separate detail destination. `solutions.html` and `projects.html` are minimal redirects to the homepage carousel, preserving old URLs without the deleted content. Earlier descriptions in this history record the previous implementation.
+
+## Smooth automatic service transitions — 9 November 2026
+
+Service slides advance every 4.5 seconds with a 1.1-second eased transition and a seamless loop. Mouse hover and manual arrow/dot/swipe actions no longer permanently stop playback. Autoplay restarts its delay after navigation and pauses while the carousel is outside the viewport, the tab is hidden, or a keyboard-focused control is being used. Reduced-motion preferences continue to disable automatic movement. Counter and playback buttons remain removed, and arrows retain their opposite-side positions.

@@ -44,9 +44,9 @@
 .feature-dots button[aria-current=true] span{width:22px;border-radius:10px;background:var(--blue)}
 .feature-count{font:10px/1.5 ui-monospace,monospace;color:var(--muted);margin-right:8px}
 .carousel-ready .feature-viewport{overflow:hidden;scroll-snap-type:none;touch-action:pan-y}
-.carousel-ready .feature-track{padding:0;transition:transform .65s cubic-bezier(.22,.7,.2,1);will-change:transform}
+.carousel-ready .feature-track{padding:0;transition:transform 1.1s cubic-bezier(.45,0,.2,1);will-change:transform}
 .carousel-ready .feature-track.no-transition{transition:none}
-.carousel-ready .feature-slide{opacity:.5;transition:opacity .65s;scroll-snap-align:none}
+.carousel-ready .feature-slide{opacity:.5;transition:opacity 1.1s;scroll-snap-align:none}
 .carousel-ready .feature-slide.is-active{opacity:1}
 @media(min-width:1600px){.feature-slide{min-height:580px}.feature-art{height:390px}}
 @media(max-width:800px){.feature-services{padding-block:55px}.feature-heading{margin-bottom:25px}.feature-heading h2{font-size:40px}.feature-slide{width:82vw;min-height:500px}.feature-track{padding-inline:9vw}.feature-art{inset:5px 1% auto 8%;height:300px}.feature-caption{left:30px;right:30px;bottom:30px}.feature-caption h3{font-size:38px}.feature-caption p{font-size:14px}.feature-dots button{min-width:24px;width:24px}.feature-count{display:none}}
