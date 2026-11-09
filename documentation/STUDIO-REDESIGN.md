@@ -47,3 +47,7 @@ At the owner’s request, the main pages use short, factual service descriptions
 ## Horizontal services slider — 9 November 2026
 
 The homepage service grid is now a single horizontal row of scroll-snap cards. It supports native touch/trackpad scrolling, previous/next buttons, a visible-range counter, and arrow keys when the track has focus. Controls appear only with JavaScript; native scrolling remains available without it. No slides advance automatically. Reduced-motion preferences disable smooth programmatic scrolling. The detailed Services page and its six fragment destinations remain unchanged. Homepage asset links include a version query so returning visitors receive the matching CSS and JavaScript.
+
+## Centered feature carousel — 9 November 2026
+
+The service row is replaced by a centered, large-slide carousel with partially visible neighbours, service-specific vector artwork, dot navigation and previous/next controls. Slides change every 5.5 seconds only while the carousel is in view; playback pauses on hover, keyboard focus and hidden tabs. A play/pause button is provided. Reduced-motion users start paused. Manual arrows, dots, keyboard navigation and swipe gestures remain available. Cloned end slides create a continuous loop and are hidden from accessibility APIs. Without JavaScript, the six original slides remain horizontally scrollable. This supersedes the earlier horizontal-card implementation.
