@@ -75,3 +75,7 @@ The existing contact section, enquiry checklist and `mailto:khavenko@gmail.com` 
 ## Repeated contact banner removed — 9 November 2026
 
 The owner removed the “Need help with a task?” banner, its circular “Discuss a project” button and the footer tagline “Freelance websites, tools and IT support.” The actual homepage contact section, enquiry checklist and email link remain.
+
+## English / Danish language switch — 9 November 2026
+
+English remains the default, following the owner’s clarification. A header button switches the homepage between English and Danish. It translates the page text, metadata, navigation labels, service slides (including carousel clones), controls and contact guidance. The email address, brand, service timings and layout remain unchanged. Language choice is stored under `ksecure-language` in localStorage; unavailable storage is handled without blocking the page. Explicit `?lang=en` and `?lang=da` parameters take priority. The error page uses the same language system. Historical archived content is preserved as recorded. Menu labels update in the selected language when opening or closing navigation.

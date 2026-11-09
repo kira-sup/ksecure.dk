@@ -25,3 +25,7 @@ Read [Studio redesign](documentation/STUDIO-REDESIGN.md) for the latest page str
 - [File inventory, hashes and binary references](documentation/SOURCE-MANIFEST.json)
 
 Recorded on 8 November 2026. Source appendices preserve specific commits; historical code is clearly separated from the current website.
+
+## Languages
+
+English is the default. The header button switches between English and Danish and remembers the visitor’s choice locally. The homepage and carousel controls are translated without an external translation service. Use `?lang=en` or `?lang=da` to choose a language explicitly.

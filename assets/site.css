@@ -62,3 +62,14 @@
 .feature-next{right:clamp(12px,5vw,65px)}
 .feature-controls{justify-content:center}
 @media(max-width:580px){.carousel-ready .feature-stage .feature-side-arrow{width:38px;height:38px;font-size:20px}.feature-prev{left:7px}.feature-next{right:7px}}
+
+/* English / Danish language control. */
+.header-actions{display:flex;align-items:center;gap:12px;order:3}
+.site-header>.brand{order:1}
+.site-header>nav{order:2}
+.language-toggle{font:600 12px/1.4 "Segoe UI",Arial,sans-serif;border:1px solid #cbd3df;border-radius:22px;background:transparent;color:var(--ink);padding:9px 15px;min-height:38px;cursor:pointer}
+.language-toggle:hover{background:#e8edf5}
+.language-toggle[hidden]{display:none}
+.button .translated-label,.text-link .translated-label{font-size:inherit;line-height:inherit}
+.error-page .language-toggle{float:right}
+@media(max-width:800px){.header-actions{order:2;gap:10px}.site-header>nav{order:3}.language-toggle{font-size:11px;padding:8px 12px}}
