@@ -87,3 +87,7 @@ The page uses the normal arrow cursor over text. Links and buttons retain the ha
 ## Repeated labels removed — 9 November 2026
 
 Removed the visible “Services” heading and navigation link, both “Explore services” links, the “PROJECT PROCESS” label and the introductory contact sentence. The service carousel, process steps, contact checklist, email button and language switch remain. Removing the underlying translation-marked elements removes these items in both English and Danish.
+
+## Decorative slide and section labels removed — 9 November 2026
+
+Removed “WHAT KSECURE CAN DO,” “INDEPENDENT DIGITAL SERVICES,” and all six “01–06 / KSECURE” slide labels from the visitor page in both languages. Service titles, descriptions, artwork and carousel controls remain.
