@@ -6,9 +6,9 @@ Prepared for publication on 9 November 2026. This revision follows the owner's r
 
 | File | Purpose |
 | --- | --- |
-| [index.html](../index.html) | Brand introduction, six capabilities, working principles, three-step process and contact calls to action |
+| [index.html](../index.html) | Direct service introduction, six capabilities, three-step process and the retained project button |
 | [solutions.html](../solutions.html) | Detailed service sections, potential deliverables, scope boundaries and service anchor navigation |
-| [info.html](../info.html) | About KSecure, working principles, four-step project process and `#contact` |
+| [info.html](../info.html) | Brief business description, three project expectations and `#contact` |
 | [projects.html](../projects.html) | Meta-refresh redirect and fallback link to Services, retaining the old URL |
 | [404.html](../404.html) | Missing-page recovery through Home, Services and Contact |
 | [assets/site.css](../assets/site.css) | New responsive blue, ink and pale-background visual system |
@@ -39,3 +39,7 @@ The site remains buildless HTML/CSS/JavaScript in the existing GitHub repository
 JavaScript syntax, relative navigation/asset destinations, fragment targets, page landmarks, service coverage and intended file changes are checked before the GitHub commit. Browser visual verification was unavailable because the local preview timed out and Computer Use stopped when it could not reliably identify the browser URL. This revision therefore does not claim a completed visual browser audit or live deployment verification. Review the live site at desktop and mobile widths once the existing hosting deployment finishes.
 
 The [previous architecture](ARCHITECTURE.md), [operations guide](OPERATIONS.md) and [source snapshots](SOURCE-CURRENT.md) remain historical records with explicit baseline commit IDs. Use this note and the linked current source files when maintaining the redesigned site. Git history preserves the exact redesign and its predecessor for comparison and recovery.
+
+## Plain-language copy update — 9 November 2026
+
+At the owner’s request, the main pages use short, factual service descriptions. The decorative slogans, capability strip, blue statement band, repeated values section and long introductory paragraphs were removed. Services keep one description and a deliverables list each. Trust is supported by explaining scope, price and timing before work, review against requirements, and files with usage notes at handover. No testimonials, customer counts, credentials or guarantees were added. The two “Discuss a project” buttons and the supplied email address remain.
